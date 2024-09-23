@@ -4,4 +4,4 @@
 4. kasih file2 berikut ke user:
 	- get_credentials copy.py (encrypted version)
 	- filekey.key
-5. place them 
+5. place them one directory above creds.py
