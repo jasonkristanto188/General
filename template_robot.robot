@@ -6,16 +6,16 @@ Library    SapGuiLibrary
 Library    RPA.Windows
 
 *** Variables ***
-# ${CONNECTION NAME}=    01. ADM S/4 HANA Production
-${CONNECTION NAME}=    04. ADM S/4 Hana Simulation
+${CONNECTION NAME}=    01. ADM S/4 HANA Production
+# ${CONNECTION NAME}=    04. ADM S/4 Hana Simulation
 ${CLIENT}=    310    
-${SAP USERNAME}=    P4ACC_RENDY    
-${SAP PASSWORD}=    JakartaQ32024*2
+${SAP USERNAME}=    
+${SAP PASSWORD}=    
 
 *** Tasks ***
 Main
     SapGuiLibrary.Disable Screenshots On Error
-    # Get Credentials
+    Get Credentials
     Login SAP
     SAP Run Transaction    /nFBL3N
     
