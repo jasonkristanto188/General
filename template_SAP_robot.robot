@@ -1,3 +1,6 @@
+# this code is written in robot framework language
+# can import functions from python files
+
 *** Settings ***
 Library    creds.py
 Library    datetime_custom.py
