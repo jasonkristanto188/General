@@ -1,0 +1,6 @@
+1. clone file "get_credentials.py"
+2. pastikan nama clone file tsb "get_credentials copy.py"
+3. run function "encrypt_file" dari file "template_encryption.py" untuk mengencrypt file "get_credentials copy.py"
+4. kasih file2 berikut ke user:
+	- get_credentials copy.py (hrs sudah terencrypt)
+	- filekey.key
